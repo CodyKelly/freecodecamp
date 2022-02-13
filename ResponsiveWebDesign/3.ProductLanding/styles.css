@@ -1,0 +1,111 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #eee;
+}
+
+h3 {
+
+}
+
+section {
+    
+}
+
+#products {
+
+}
+
+#features {
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+input[type=email] {
+    /* height: 2rem; */
+    max-width: 300px;
+    width: 100%;
+    padding: 5px;
+}
+
+button {
+    background-color: #f1c40f;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 15px 0;
+    border: 0;
+    padding: 10px 20px;
+    transition: background-color 1s;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+header {
+    position: fixed;
+    background-color: red;
+    min-height: 75px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+.logo {
+    padding: 0 20px;
+    background-color: blue;
+    flex-grow: 3;
+}
+
+.logo > img {
+    max-width: 300px;
+}
+
+nav {
+    flex-grow: 1;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+}
+
+.product {
+
+}
+
+.product.header {
+
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+}
