@@ -1,0 +1,21 @@
+.quote-box {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 50px;
+}
+
+.quote-box .quote {
+
+}
+
+.quote-box .author {
+    font-style: italic;
+}
